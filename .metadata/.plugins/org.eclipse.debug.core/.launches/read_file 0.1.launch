@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.talend.designer.runprocess.jobLaunchConfiguration">
+<stringAttribute key="CURRENT_PROJECT_NAME" value="file_db_integration"/>
+<stringAttribute key="TALEND_JOB_ID" value="_YwUe4ApnEemfqKzN6-x6kQ"/>
+<stringAttribute key="TALEND_JOB_NAME" value="read_file"/>
+<stringAttribute key="TALEND_JOB_VERSION" value="0.1"/>
+</launchConfiguration>

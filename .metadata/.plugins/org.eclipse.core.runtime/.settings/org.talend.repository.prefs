@@ -1,0 +1,3 @@
+TOS_Jobs_Records={"FILE_DB_INTEGRATION"\:{"projects"\:{"PROCESS"\:{"details"\:{"components"\:[{"component_name"\:"tS3Connection","count"\:1},{"component_name"\:"tS3Get","count"\:1},{"component_name"\:"tCreateTemporaryFile","count"\:2},{"component_name"\:"tFileInputDelimited","count"\:1},{"component_name"\:"tXMLMap","count"\:1},{"component_name"\:"tFileOutputXML","count"\:1},{"component_name"\:"tS3Put","count"\:1}],"nb.components"\:8,"nb.contextVars"\:3},"nb"\:1}},"type"\:"git"},"FIRST_INTEGRATION"\:{"projects"\:{},"type"\:"git"},"LOCAL_PROJECT"\:{"projects"\:{},"type"\:"local"},"SERVERLESS_ETL"\:{"projects"\:{},"type"\:"local"}}
+eclipse.preferences.version=1
+tos_count_job_exports=6
