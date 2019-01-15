@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SERVERLESS_ETL_CHILDJOB_0.1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.talend.core.sourcesNature</nature>
+	</natures>
+</projectDescription>

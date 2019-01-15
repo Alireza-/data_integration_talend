@@ -1,0 +1,59 @@
+[WARNING] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SERVERLESS_ETL customers_csv_to_xml-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.httpcomponents:httpclient:jar:4.5.5 is missing, no dependency information available
+[WARNING] The POM for org.apache.httpcomponents:httpcore:jar:4.4.9 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.5 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.9.5 is missing, no dependency information available
+[WARNING] The POM for log4j:log4j:jar:1.2.17 is missing, no dependency information available
+[INFO] 
+[INFO] --- builder-maven-plugin:7.1.1:generate (default) @ customers_csv_to_xml ---
+[WARNING] The POM for commons-lang:commons-lang:jar:2.6 is missing, no dependency information available
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ customers_csv_to_xml ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ customers_csv_to_xml ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ customers_csv_to_xml ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ customers_csv_to_xml ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ customers_csv_to_xml ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ customers_csv_to_xml ---
+[INFO] Building jar: /Applications/TalendStudio-7.1.1/studio/workspace/SERVERLESS_ETL/poms/jobs/process/KB/aws/s3/customers_csv_to_xml_0.1/target/customers_csv_to_xml_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ customers_csv_to_xml ---
+[INFO] Reading assembly descriptor: /Applications/TalendStudio-7.1.1/studio/workspace/SERVERLESS_ETL/poms/jobs/process/KB/aws/s3/customers_csv_to_xml_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for org.apache.httpcomponents:httpclient:jar:4.5.5
+[WARNING] Missing POM for org.apache.httpcomponents:httpcore:jar:4.4.9
+[WARNING] Missing POM for com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0
+[WARNING] Missing POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.5
+[WARNING] Missing POM for com.fasterxml.jackson.core:jackson-databind:jar:2.9.5
+[WARNING] Missing POM for log4j:log4j:jar:1.2.17
+[INFO] Building zip: /Applications/TalendStudio-7.1.1/studio/workspace/SERVERLESS_ETL/poms/jobs/process/KB/aws/s3/customers_csv_to_xml_0.1/target/customers_csv_to_xml_0_1.zip
+[INFO] 
+[INFO] --- signer-maven-plugin:7.1.1:sign (sign) @ customers_csv_to_xml ---
+[WARNING] The POM for commons-codec:commons-codec:jar:1.10 is missing, no dependency information available
+[INFO] Start to sign the job artifact
+[INFO] Start to sign artifact, the source file is customers_csv_to_xml_0_1.zip and target file is customers_csv_to_xml_0_1_sign_.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.920 s
+[INFO] Finished at: 2019-01-03T13:35:43+10:00
+[INFO] Final Memory: 15M/325M
+[INFO] ------------------------------------------------------------------------

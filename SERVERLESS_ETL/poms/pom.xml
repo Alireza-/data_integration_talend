@@ -11,13 +11,22 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/KB/aws/s3/customers_csv_to_xml_0.1</module>
+    <module>jobs/process/db_job_0.1</module>
+    <module>jobs/process/AccountConvetion/account_conversion_job_0.1</module>
+    <module>jobs/process/ParentChild/childjob_0.1</module>
+    <module>jobs/process/ParentChild/parentjob_0.1</module>
+    <module>jobs/process/LogProcessing/log_processing_0.1</module>
+    <module>jobs/joblets/log_proccessing_0.1</module>
+    <module>jobs/process/ParentChild/log_processor_0.1</module>
+    <module>jobs/process/ParentChild/log_test_0.1</module>
+    <module>jobs/process/PythonToRedshift/python_to_redshift_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SERVERLESS_ETL</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

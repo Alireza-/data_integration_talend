@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2019-01-08T17:51:19.982+1100">
+  <deletedFolders>businessProcess/db_jobs</deletedFolders>
+  <deletedFolders>process/db</deletedFolders>
+  <deletedFolders>process/LogProcessing</deletedFolders>
+  <deletedItems id="_hU_6cA-xEemo0vYQSq4CTg" path="" type="PROCESS"/>
+  <deletedItems id="_-ZqEwBLYEemo0vYQSq4CTg" path="LogProcessing" type="PROCESS"/>
+  <deletedItems id="_SzizYBL3Eemo0vYQSq4CTg" path="ParentChild" type="PROCESS"/>
+  <deletedItems id="_Igzi0BL4Eemo0vYQSq4CTg" path="ParentChild" type="PROCESS"/>
+</recyclebin:RecycleBin>
