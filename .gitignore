@@ -1,0 +1,22 @@
+target/
+.settings/
+.metadata/.plugins/
+.JETEmitters/
+.metadata/.lock
+.metadata/*.log
+logs
+*.log
+*.jar
+*.class
+config/*.config
+redshift-jdbc.log
+**/sqlPatterns/*
+**/TDQ_Libraries
+
+.idea/
+temp/
+
+# Required for the CI build to work. Therefore selectively including and excluding from gitignore.
+**/poms/jobs/process/*/*/**
+!**/poms/jobs/process/*/*/pom.xml
+**/code/routines/system
